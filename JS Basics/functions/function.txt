@@ -1,0 +1,25 @@
+A JavaScript function is a block of code designed to perform a particular task.
+
+A JavaScript function is executed when "something" invokes it (calls it).
+
+Syntax =>
+
+function name(parameter1, parameter2, ... parameterN) {
+ // body
+}
+
+two types of functions :
+1) regular function
+2)fat arrow function
+
+1) regular =>
+synatax'
+function name(parameter1, parameter2, ... parameterN) {
+ // body
+}
+
+2) fat arrow function :
+synatax:
+const myname=()=>{
+    // body
+}
