@@ -1,0 +1,6 @@
+Asynchronous : Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. 
+ or 
+ Asynchronous means that things can happen independently of the main program flow.
+
+
+synchronous : JavaScript is synchronous, blocking and single-threaded. This means that the JavaScript engine executes our program sequentially, one line at a time from top to bottom in the exact order of the statements.
