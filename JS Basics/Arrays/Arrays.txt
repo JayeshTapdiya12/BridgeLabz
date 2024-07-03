@@ -1,0 +1,33 @@
+arrays means :  It stores multiple values and elements in one variable of same type.
+or
+An array is a special variable, which can hold more than one value:
+
+syantax of array :
+
+let arrayName =[];
+
+eg:
+let name =["jayesh","tapdiya"]
+
+
+#Arrays Methods : 
+ 1)length() :The length property returns the length (size) of an array
+
+ 2)to.string() : it is used to convert array into string seprateed by (,).
+
+ 3)join: it is used to join all the array into string in the array
+
+ 4)push: it is used to add item in array
+
+ 5) pop : it is used to remover the item in array
+
+ 6)concat : it is used to jion two array
+
+ 7)slpice: it is used to added new item in array
+
+ 8)slice: it is used to remove the item in array
+ 
+ 9)shift() – extracts an item from the beginning,
+
+10)unshift() – adds items to the beginning.
+
