@@ -1,0 +1,41 @@
+ es 6
+
+New features of ES6 (2015)
+class
+Modularization
+Arrow function
+Function parameter defaults
+Template string
+Destructuring assignment
+Extension operator
+Object attribute shorthand
+Promise
+Let and Const
+
+es 7
+
+The array includes() method is used to determine whether an array contains a specified value. If it does, it returns true, otherwise it returns false.
+a ** b index operator, which is the same as Math.pow(a, b).
+
+
+es 8
+
+async/await
+Object.values()
+Object.entries()
+String padding: padStart() and padEnd(), the padding string reaches the current length
+Comma is allowed at the end of function parameter list
+Object.getOwnPropertyDescriptors()
+ShareArrayBuffer and Atomics objects for reading and writing from shared memory locations
+
+
+es 9
+
+Asynchronous iterator
+Template string for non escape sequence
+Regular expression reverse (look behind) assertion (this article)
+Regular expression Unicode escape
+Regular expression s/dotAll mode
+Regular expression named capture group
+Object expansion operator
+Promise.prototype.finally
