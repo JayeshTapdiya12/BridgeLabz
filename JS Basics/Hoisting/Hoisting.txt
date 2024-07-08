@@ -1,0 +1,49 @@
+Hoisting in JavaScript is a behavior in which variable and function declarations are moved to the top of their containing scope (either global or function scope) before the code is executed. This means that you can use variables and functions before you declare them in your code.
+
+var : When you declare a variable with var, the declaration is hoisted to the top, but the assignment is not. This means that if you use the variable before the assignment, it will be undefined.
+
+example :
+
+console.log(x); // Output: undefined
+var x = 5;
+console.log(x); // Output: 50
+
+let And Const :
+Variables declared with let and const are also hoisted, but they are not initialized. Accessing them before the declaration results in a ReferenceError. This is because they are in a "temporal dead zone" from the start of the block until the declaration is encountered.
+
+console.log(y); // ReferenceError: Cannot access 'y' before initialization
+let y = 10;
+console.log(y); // Output: 10
+
+console.log(z); // ReferenceError: Cannot access 'z' before initialization
+const z = 15;
+console.log(z); // Output: 15
+
+
+
+Function :
+ 1)
+ 
+ console.log(sum(2, 3)); // Output: 5
+
+function sum(a, b) {
+    return a + b;
+}
+
+2)
+console.log(add(2, 3)); // TypeError: add is not a function
+var add = function(a, b) {
+    return a + b;
+};
+
+
+3)
+console.log(multiply(2, 3)); // ReferenceError: Cannot access 'multiply' before initialization
+let multiply = function(a, b) {
+    return a + b;
+};
+
+console.log(divide(2, 3)); // ReferenceError: Cannot access 'divide' before initialization
+const divide = function(a, b) {
+    return a / b;
+};
